@@ -8,7 +8,10 @@ body{
 	font-size: 16px;
 	font-family: 'Roboto', sans-serif;
 	background: #111;
-	color: #707070;
+	color: #d3d3d3;
+}
+p{
+	color: #e7e7e7 !important;
 }
 
 h1,
@@ -158,13 +161,10 @@ a:focus{
 /*****    Navigation area css   *****/
 /************************************/
 
-header.header{
-	
-}
 
 header .navbar{
 	padding: 0;
-	background: rgba(0,0,0,0.4);
+	background: rgba(0,0,0);
 	z-index: 40;
 	transition: all 0.3s;
 }
@@ -1645,6 +1645,9 @@ header .navbar.sticky-header{
 	
 	.skill-content{
 		margin-bottom: 20px;
+	}
+	.mob{
+		width: 50%;
 	}
 	
 	.experience-single{
